@@ -1,0 +1,25 @@
+{
+  "name": "img2base64-cli",
+  "version": "1.0.0",
+  "description": "图片转base64的命令行工具",
+  "main": "src/main.js",
+  "scripts": {
+    "test": "node src/main.js C:\\Users\\Shampoo6\\Desktop\\temp\\微信图片_20200806174319.png"
+  },
+  "bin": {
+    "2base64": "src/main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shampoo6/img2base64-cli.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shampoo6/img2base64-cli/issues"
+  },
+  "homepage": "https://github.com/shampoo6/img2base64-cli#readme",
+  "dependencies": {
+    "base64-js": "^1.3.1"
+  }
+}
